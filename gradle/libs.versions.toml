@@ -1,0 +1,7 @@
+[libraries]
+devauth = { module = "me.djtheredstoner:DevAuth-forge-legacy", version = "1.2.1" }
+forge = { module = "net.minecraftforge:forge", version = "1.8.9-11.15.1.2318-1.8.9" }
+mcp = { module = "de.oceanlabs.mcp:mcp_stable", version = "22-1.8.9" }
+minecraft = { module = "com.minecraft:minecraft", version = "1.8.9" }
+mixin = { module = "org.spongepowered:mixin", version = "0.7.11-SNAPSHOT" }
+mixin-processor = { module = "org.spongepowered:mixin", version = "0.8.7" }

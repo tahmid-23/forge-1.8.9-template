@@ -1,0 +1,9 @@
+{
+  "package": "com.github.tahmid_23.examplemod.mixin",
+  "refmap": "mixins.${modid}.refmap.json",
+  "minVersion": "0.7",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinMinecraft"
+  ]
+}

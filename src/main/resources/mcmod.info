@@ -1,0 +1,12 @@
+[
+  {
+    "modid": "${modid}",
+    "name": "Example Mod",
+    "description": "Forge 1.8.9 template mod.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "authorList": [
+      "tahmid-23"
+    ]
+  }
+]
