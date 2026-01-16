@@ -1,7 +1,7 @@
 plugins {
     idea
     java
-    id("gg.essential.loom") version "1.13.41"
+    id("gg.essential.loom") version "1.13.44"
     id("dev.architectury.architectury-pack200") version "0.1.3"
     id("com.gradleup.shadow") version "9.3.1"
 }
@@ -19,10 +19,11 @@ java {
 loom {
     log4jConfigs.from(file("log4j2.xml"))
     runs {
-        getByName("client") {
+        named("client") {
             // If you don't want mixins, remove these lines
             property("mixin.debug", "true")
             programArgs("--tweakClass", "org.spongepowered.asm.launch.MixinTweaker")
+
             if (org.apache.commons.lang3.SystemUtils.IS_OS_MAC_OSX) {
                 // This argument causes a crash on macOS
                 vmArgs.remove("-XstartOnFirstThread")
